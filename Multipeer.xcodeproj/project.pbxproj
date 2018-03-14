@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB4426A20583B30006FDA02 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4426920583B30006FDA02 /* MasterViewController.swift */; };
+		2CB4426C20583B36006FDA02 /* SlaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4426B20583B36006FDA02 /* SlaveViewController.swift */; };
+		2CB4426E20583B47006FDA02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4426D20583B47006FDA02 /* MainViewController.swift */; };
+		2CB4427420583E8C006FDA02 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4427320583E8C006FDA02 /* ConnectionManager.swift */; };
+		2CE08E042059908200048D34 /* SystemConstatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE08E032059908200048D34 /* SystemConstatnts.swift */; };
+		2CE08E0C20599D4900048D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE08E0B20599D4900048D34 /* AppDelegate.swift */; };
+		2CE08E0E20599D4900048D34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE08E0D20599D4900048D34 /* ViewController.swift */; };
+		2CE08E1120599D4900048D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE08E0F20599D4900048D34 /* Main.storyboard */; };
+		2CE08E1320599D4900048D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE08E1220599D4900048D34 /* Assets.xcassets */; };
+		2CE08E1820599DE200048D34 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4427320583E8C006FDA02 /* ConnectionManager.swift */; };
+		2CE08E1920599F6A00048D34 /* SystemConstatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE08E032059908200048D34 /* SystemConstatnts.swift */; };
+		2CF254A51F30C86800275758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF254A41F30C86800275758 /* AppDelegate.swift */; };
+		2CF254AA1F30C86800275758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF254A81F30C86800275758 /* Main.storyboard */; };
+		2CF254AC1F30C86800275758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF254AB1F30C86800275758 /* Assets.xcassets */; };
+		2CF254AF1F30C86800275758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF254AD1F30C86800275758 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CB4426920583B30006FDA02 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2CB4426B20583B36006FDA02 /* SlaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlaveViewController.swift; sourceTree = "<group>"; };
+		2CB4426D20583B47006FDA02 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2CB4427320583E8C006FDA02 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		2CE08E032059908200048D34 /* SystemConstatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConstatnts.swift; sourceTree = "<group>"; };
+		2CE08E0920599D4900048D34 /* MultipeerTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE08E0B20599D4900048D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CE08E0D20599D4900048D34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CE08E1020599D4900048D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CE08E1220599D4900048D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE08E1420599D4900048D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF254A11F30C86800275758 /* Multipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF254A41F30C86800275758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CF254A91F30C86800275758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CF254AB1F30C86800275758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CF254AE1F30C86800275758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CF254B01F30C86800275758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE08E0620599D4900048D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF2549E1F30C86800275758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB4426F20583E47006FDA02 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2CF254A41F30C86800275758 /* AppDelegate.swift */,
+				2CF254AB1F30C86800275758 /* Assets.xcassets */,
+				2CF254AD1F30C86800275758 /* LaunchScreen.storyboard */,
+				2CF254B01F30C86800275758 /* Info.plist */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2CB4427020583E55006FDA02 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CF254A81F30C86800275758 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2CB4427120583E61006FDA02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CB4426920583B30006FDA02 /* MasterViewController.swift */,
+				2CB4426B20583B36006FDA02 /* SlaveViewController.swift */,
+				2CB4426D20583B47006FDA02 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CE08E0A20599D4900048D34 /* MultipeerTV */ = {
+			isa = PBXGroup;
+			children = (
+				2CE08E0B20599D4900048D34 /* AppDelegate.swift */,
+				2CE08E0D20599D4900048D34 /* ViewController.swift */,
+				2CE08E0F20599D4900048D34 /* Main.storyboard */,
+				2CE08E1220599D4900048D34 /* Assets.xcassets */,
+				2CE08E1420599D4900048D34 /* Info.plist */,
+			);
+			path = MultipeerTV;
+			sourceTree = "<group>";
+		};
+		2CE08E1A20599FD900048D34 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2CE08E032059908200048D34 /* SystemConstatnts.swift */,
+				2CB4427320583E8C006FDA02 /* ConnectionManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2CF254981F30C86800275758 = {
+			isa = PBXGroup;
+			children = (
+				2CE08E1A20599FD900048D34 /* Shared */,
+				2CF254A31F30C86800275758 /* Multipeer */,
+				2CE08E0A20599D4900048D34 /* MultipeerTV */,
+				2CF254A21F30C86800275758 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CF254A21F30C86800275758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CF254A11F30C86800275758 /* Multipeer.app */,
+				2CE08E0920599D4900048D34 /* MultipeerTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF254A31F30C86800275758 /* Multipeer */ = {
+			isa = PBXGroup;
+			children = (
+				2CB4426F20583E47006FDA02 /* Base */,
+				2CB4427120583E61006FDA02 /* Controllers */,
+				2CB4427020583E55006FDA02 /* UI */,
+			);
+			path = Multipeer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE08E0820599D4900048D34 /* MultipeerTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE08E1520599D4900048D34 /* Build configuration list for PBXNativeTarget "MultipeerTV" */;
+			buildPhases = (
+				2CE08E0520599D4900048D34 /* Sources */,
+				2CE08E0620599D4900048D34 /* Frameworks */,
+				2CE08E0720599D4900048D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipeerTV;
+			productName = MultipeerTV;
+			productReference = 2CE08E0920599D4900048D34 /* MultipeerTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CF254A01F30C86800275758 /* Multipeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF254B31F30C86800275758 /* Build configuration list for PBXNativeTarget "Multipeer" */;
+			buildPhases = (
+				2CF2549D1F30C86800275758 /* Sources */,
+				2CF2549E1F30C86800275758 /* Frameworks */,
+				2CF2549F1F30C86800275758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multipeer;
+			productName = Multipeer;
+			productReference = 2CF254A11F30C86800275758 /* Multipeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CF254991F30C86800275758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luiz Felipe Albernaz Pio";
+				TargetAttributes = {
+					2CE08E0820599D4900048D34 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 6YM3AUW8A2;
+						ProvisioningStyle = Automatic;
+					};
+					2CF254A01F30C86800275758 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6YM3AUW8A2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2CF2549C1F30C86800275758 /* Build configuration list for PBXProject "Multipeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CF254981F30C86800275758;
+			productRefGroup = 2CF254A21F30C86800275758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF254A01F30C86800275758 /* Multipeer */,
+				2CE08E0820599D4900048D34 /* MultipeerTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE08E0720599D4900048D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE08E1320599D4900048D34 /* Assets.xcassets in Resources */,
+				2CE08E1120599D4900048D34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF2549F1F30C86800275758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF254AF1F30C86800275758 /* LaunchScreen.storyboard in Resources */,
+				2CF254AC1F30C86800275758 /* Assets.xcassets in Resources */,
+				2CF254AA1F30C86800275758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE08E0520599D4900048D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE08E0E20599D4900048D34 /* ViewController.swift in Sources */,
+				2CE08E1820599DE200048D34 /* ConnectionManager.swift in Sources */,
+				2CE08E0C20599D4900048D34 /* AppDelegate.swift in Sources */,
+				2CE08E1920599F6A00048D34 /* SystemConstatnts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF2549D1F30C86800275758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB4427420583E8C006FDA02 /* ConnectionManager.swift in Sources */,
+				2CB4426C20583B36006FDA02 /* SlaveViewController.swift in Sources */,
+				2CB4426A20583B30006FDA02 /* MasterViewController.swift in Sources */,
+				2CE08E042059908200048D34 /* SystemConstatnts.swift in Sources */,
+				2CF254A51F30C86800275758 /* AppDelegate.swift in Sources */,
+				2CB4426E20583B47006FDA02 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CE08E0F20599D4900048D34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE08E1020599D4900048D34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CF254A81F30C86800275758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF254A91F30C86800275758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CF254AD1F30C86800275758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF254AE1F30C86800275758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CE08E1620599D4900048D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YM3AUW8A2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MultipeerTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfap.MultipeerTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		2CE08E1720599D4900048D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YM3AUW8A2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MultipeerTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfap.MultipeerTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		2CF254B11F30C86800275758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF254B21F30C86800275758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF254B41F30C86800275758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YM3AUW8A2;
+				INFOPLIST_FILE = "$(SRCROOT)/Multipeer/Base/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfap.Multipeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2CF254B51F30C86800275758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YM3AUW8A2;
+				INFOPLIST_FILE = "$(SRCROOT)/Multipeer/Base/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfap.Multipeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE08E1520599D4900048D34 /* Build configuration list for PBXNativeTarget "MultipeerTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE08E1620599D4900048D34 /* Debug */,
+				2CE08E1720599D4900048D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF2549C1F30C86800275758 /* Build configuration list for PBXProject "Multipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF254B11F30C86800275758 /* Debug */,
+				2CF254B21F30C86800275758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF254B31F30C86800275758 /* Build configuration list for PBXNativeTarget "Multipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF254B41F30C86800275758 /* Debug */,
+				2CF254B51F30C86800275758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CF254991F30C86800275758 /* Project object */;
+}
